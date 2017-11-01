@@ -1,0 +1,19 @@
+*{margin:0;padding:0;box-sizing: border-box;}
+a{text-decoration: none;}
+li{list-style: none;}
+html,body{width:100%;height:100%}
+.wrap{width:100%;height:100%;display: flex;flex-direction: column;}
+header{width: 100%;height:50px;background: #212;display: flex;}
+header a{font-size: 20px;color:#fff;line-height: 50px;}
+header a:nth-of-type(odd){flex-basis: 2.5rem;text-align: center;}
+header a:nth-of-type(odd) i.icon{font-size: 24px;}
+header a:nth-of-type(even){flex:1;}
+section{flex:1;background: #ccc;display: flex;justify-content: center;align-items: center;}
+section .box{width: 90%;height:80%;background: #fff;border-radius: 10px;}
+section .box .top{width: 100%;height: 100px;text-align: center;}
+section .box .top h1{color:skyblue;font-size: 50px;}
+section .box ul{width: 100%;height: auto;padding:0 20px;}
+section .box ul li{width: 100%;height:50px;border-bottom: 1px solid #ccc;display: flex;padding-top:10px;}
+section .box ul li i.icon{flex-basis: 30px;margin-top: 6px;color:skyblue;}
+section .box ul li input{flex:1;border:none;height:35px;}
+section .box ul li button{width: 100%;height:40px;color:#fff;background: skyblue;border:none;margin-top:10px;}
